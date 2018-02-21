@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_8_dp">8dp</dimen>
+    <dimen name="margin_16_dp">16dp</dimen>
+
+    <dimen name="image_view">150dp</dimen>
+    <dimen name="author_text_size">12sp</dimen>
+    <dimen name="title_text_size">16sp</dimen>
+    <!--// size of language code and price-->
+    <dimen name="language_code_text_size">12sp</dimen>
+
+    <dimen name="spacing_in_grid_view">20dp</dimen>
+</resources>

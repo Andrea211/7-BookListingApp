@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Book Listing App</string>
+    <string name="search_button_name">search</string>
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="no_books">No books found.</string>
+    <string name="search_view_hint">Enter a book title</string>
+    <string name="search_hint">Enter a title</string>
+
+    <string name="description_magnifying_glass_image">magnifying glass image</string>
+    <string name="description_book_cover">book cover</string>
+
+    <string name="sample_title">Origin</string>
+    <string name="sample_author">Dan Brown</string>
+    <string name="sample_language">PL</string>
+    <string name="sample_price">34,99</string>
+    <string name="sample_currency">PLN</string>
+</resources>

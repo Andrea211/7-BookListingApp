@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/searchSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_8_dp"
+            android:orientation="horizontal">
+
+            <SearchView
+                android:id="@+id/search_view_field"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:iconifiedByDefault="false"
+                android:imeOptions="actionSend"
+                android:inputType="text"
+                android:queryHint="@string/search_view_hint"
+                android:searchHintIcon="@null"
+                android:searchIcon="@null"
+                tools:queryHint="@string/search_hint" />
+
+            <ImageView
+                android:id="@+id/search_button"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/description_magnifying_glass_image"
+                android:src="@drawable/magnifying_glass" />
+
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grid_view_background"
+            android:horizontalSpacing="@dimen/spacing_in_grid_view"
+            android:numColumns="2"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/spacing_in_grid_view"
+            android:paddingRight="@dimen/spacing_in_grid_view"
+            android:verticalSpacing="@dimen/spacing_in_grid_view" />
+
+    </LinearLayout>
+
+    <!-- Empty view is only visible when the list has no items. -->
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <ProgressBar
+        android:id="@+id/loading_spinner"
+        style="?android:progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="@color/progress_bar_color"
+        android:indeterminateTintMode="src_in" />
+
+</RelativeLayout>

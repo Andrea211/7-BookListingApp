@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01579B</color>
+    <color name="colorPrimaryDark">#01579B</color>
+    <color name="colorAccent">#03A9F4</color>
+
+    <color name="textColorAuthor">#606060</color>
+    <color name="textColorBookTitle">#000000</color>
+    <color name="textColorCountryCode">#606060</color>
+    <color name="textColorPrice">#01579B</color>
+
+    <color name="item_background">#FFFFFF</color>
+    <color name="grid_view_background">#e5e5e5</color>
+    <color name="progress_bar_color">#03A9F4</color>
+</resources>
